@@ -1,0 +1,29 @@
+.container {
+    margin-top: 100px;
+}
+
+.newarrival {
+    background: green;
+    width: 50px;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.col-md-7 h2 {
+    color: #555;
+}
+
+span {
+    padding-left: 20px;
+}
+
+.shipping {
+    float: right;
+    margin-right: 0;
+    font-size: 11px;
+}
+
+.btn {
+    background-color: orange;
+}
