@@ -15,73 +15,75 @@
 </head>
 
 <body>
-    <div class="container">
-        <div class="row">
-            <div class="col-md-5">
-                <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
-                            <img class="d-block w-100" src="./img/img.png" alt="First slide">
+    <div class="btn" data-toggle="modal" data-target="#myModal">modal</div>
+    <div class="modal fade-scale" id="myModal">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5">
+                    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img class="d-block w-100" src="./img/img.png" alt="First slide">
+                            </div>
+                            <div class="carousel-item">
+                                <img class="d-block w-100" src="./img/img2.png" alt="Second slide">
+                            </div>
+                            <div class="carousel-item">
+                                <img class="d-block w-100" src="./img/img3.jpg" alt="Third slide">
+                            </div>
                         </div>
-                        <div class="carousel-item">
-                            <img class="d-block w-100" src="./img/img2.png" alt="Second slide">
-                        </div>
-                        <div class="carousel-item">
-                            <img class="d-block w-100" src="./img/img3.jpg" alt="Third slide">
-                        </div>
+                        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
                     </div>
-                    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="sr-only">Previous</span>
-                    </a>
-                    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="sr-only">Next</span>
-                    </a>
-                </div>
-                <div class="time-countdown">
+                    <div class="time-countdown">
 
-                </div>
-            </div>
-            <div class="col-md-7">
-                <div class="title-product">
-                    <p class="newarrival text-center">NEW</p>
-                    <h2>Apple iphone 12</h2>
-
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star-half-alt"></i>
-                    <span class="review">1 review</span>
-                    <span class="review">write review</span>
-                    <hr>
-                </div>
-                <div class="price">
-                    <span>Min. bid amount:</span>
-                    <span>$10:00</span>
-                    <span>Last price:</span>
-                    <span>$100</span>
-                    <div class="shipping">
-                        <a href="#">FREE US shiping over 100$</a> <br>
-                        <p>Order within next 2 days will be shipped on Monday</p>
                     </div>
                 </div>
-                <div class="control">
-                    <span>Make a bid</span> <br>
-                    <div class="input-group mb-2">
-                        <input type="text" class="form-control" placeholder="Price Auction" aria-label="Recipient's username" aria-describedby="basic-addon2">
-                        <div class="input-group-append">
-                            <button class="btn btn-outline-secondary" type="button">BID</button>
+                <div class="col-md-7">
+                    <div class="title-product">
+                        <p class="newarrival text-center">NEW</p>
+                        <h2>Apple iphone 12</h2>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                        <span class="review">1 review</span>
+                        <span class="review">write review</span>
+                        <hr>
+                    </div>
+                    <div class="price">
+                        <span>Min. bid amount:</span>
+                        <span>$10:00</span>
+                        <span>Last price:</span>
+                        <span>$100</span>
+                        <div class="shipping">
+                            <a href="#">FREE US shiping over 100$</a> <br>
+                            <p>Order within next 2 days will be shipped on Monday</p>
                         </div>
                     </div>
+                    <form action="da">
+                        <div class="control">
+                            <span>Make a bid</span> <br>
+                            <div class="input-group mb-2">
+                                <input width="100px" type="text" class="input-sm" placeholder="Price Auction" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                                <div class="input-group-append">
+                                    <button class="btn btn-outline-secondary" type="button">BID</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <label for=""><b>Price in points:</b></label><span>29950 points</span> <br>
+                        <label for=""><b>CODE:</b></label><span>hteknuf534</span> <br>
+                        <label for=""><b>Availability:</b></label><span>In stock</span>
+                    </form>
                 </div>
-                <span> <b>Price in points:</b> </span>
-                <span>29950 points</span> <br>
-                <span><b>CODE:</b></span>
-                <span>hteknuf534</span> <br>
-                <span><b>Availability:</b></span>
-                <span>In stock</span>
             </div>
         </div>
     </div>

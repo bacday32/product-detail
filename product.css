@@ -1,5 +1,7 @@
 .container {
-    margin-top: 100px;
+    margin-top: 50px;
+    padding: 30px;
+    background-color: white;
 }
 
 .newarrival {
@@ -25,5 +27,20 @@ span {
 }
 
 .btn {
-    background-color: orange;
+    background-color: purple;
+    color: white;
+}
+
+.modal {
+    animation: fadeIn 2s;
+    background-color: rgb(75, 0, 130, 0.2);
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
 }
